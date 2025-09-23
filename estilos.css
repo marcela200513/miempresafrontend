@@ -1,0 +1,13 @@
+.cuadro-1, .cuadro-2, .cuadro-3, .cuadro-4{
+    width: 100px; /*ancho*/
+    height: 100px; /*alto*/
+    background-color: red;
+    border: 3px solid black; /*borde*/
+    border-radius: 10px; /*redondear el borde*/
+    margin: 20px; /* margen de separacion*/
+    padding: 50px; ; /*espacio de relleno*/
+    display: inline-block; /* cambiar el espacio y orden*/
+
+
+   
+}
