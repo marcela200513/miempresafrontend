@@ -1,13 +1,30 @@
-.cuadro-1, .cuadro-2, .cuadro-3, .cuadro-4{
-    width: 100px; /*ancho*/
-    height: 100px; /*alto*/
-    background-color: red;
-    border: 3px solid black; /*borde*/
-    border-radius: 10px; /*redondear el borde*/
-    margin: 20px; /* margen de separacion*/
-    padding: 50px; ; /*espacio de relleno*/
-    display: inline-block; /* cambiar el espacio y orden*/
+.colorPrincipal{
+    background-color: bisque;
+    border-color: bisque;
+}
 
+.btn-primary{
+    background-color: rgb(248, 182, 100) !important; 
+    border-color: rgb(236, 166, 80) !important;
+}
 
-   
+.btn-primary:hover{
+    background-color: rgb(241, 178, 106) !important; 
+    border-color: rgb(240, 181, 109) !important;
+
+}
+
+.fondo{
+    background-image: url("./fondo.webp");
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
+}
+.fondo2{
+     background-image: url("./fondo2.webp");
+    background-position: top center;
+    background-size: cover;
+    padding: 25%;
+    background-attachment: fixed;
 }
